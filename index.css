@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.image {
+    width: 80%;
+    padding: 5vh;
+    height: 100vh;
+    /* background-color: black; */
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(cat.jpg) no-repeat center;
+    background-size: 80%;
+    transition: .5s;
+    float: right;
+}
+
+aside {
+    width: 20%;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: "Noto Sans", sans-serif;
+    float: left;
+}
